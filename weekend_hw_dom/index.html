@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/app.js"></script>
     <link rel="stylesheet" type="text/css" href="static/style.css"/>
+    
     <title>Favourite Sports Stars</title>
 </head>
 <body>
+<div id="flex-container">
+    <h1>Favourite Sports Stars</h1>
     <form id="new-item">
         <div class="item">
             <label for="name">Name:</label>
@@ -26,15 +29,19 @@
                 <option value="Golf">Golf</option>
                 <option value="Other">Other</option>
             </select>
+        </div>
+        <div class="item">
             <label for="status">Active</label>
             <input type="radio" name="status" id="status" value="Active">
             <label for="status">Retired</label>
             <input type="radio" name="status" id="status" value="Retired">
         </div>
+        <div class="item">
         <input type="submit" value="Save"/>
+        <button id="delete-all">Delete All</button>
+        </div>
     </form>
-    <button id="delete-all">Delete All</button>
-    <h1>Favourite Sports Stars</h1>
+</div>
     <ul id="favourite-list"></ul>
 </body>
 </html>
