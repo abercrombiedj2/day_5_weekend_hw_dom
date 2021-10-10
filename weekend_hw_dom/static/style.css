@@ -1,7 +1,7 @@
 body {
     margin: auto;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #F7CECE;
+    font-family: 'Caveat', cursive;
+    background-color: #22333B;
 }
 
 #flex-container {
@@ -19,21 +19,30 @@ body {
 }
 
 h1 {
-    padding: 1%;
-    border: 5px solid #6B0505;
-    font-size: 2.5em;
-    color: #6B0505;
+    padding: 2%;
+    border: 5px solid #555B6E;
+    border-radius: 5%;
+    font-size: 5em;
+    font-family: 'Akronim', cursive;
+    color: #F2F4F3;
 }
 
 #new-item {
     padding: 2%;
     margin: 2%;
-    border: 5px solid #6B0505;
+    border: 5px solid #555B6E;
+    border-radius: 5%;
+    font-size: 2em;
 }
 
 .item {
     margin: 1%;
     padding: 1%;
-    color: #6B0505;
+    color: #F2F4F3;
     list-style-type: none;
+}
+
+li {
+    border: 5px solid #555B6E;
+    border-radius: 5%;
 }
